@@ -17,7 +17,7 @@ Ce userscript bloque les publicités sur YouTube, y compris les publicités stat
    - Copiez-collez le contenu du script dans l'éditeur
    - Cliquez sur "Fichier" > "Enregistrer"
 
-### Safari sur macOS
+### Tampermonkey Safari sur macOS
 
 1. Installez l'extension Tampermonkey :
    - Allez sur [la page Tampermonkey pour Safari](https://apps.apple.com/app/tampermonkey/id1482490089)
@@ -30,6 +30,26 @@ Ce userscript bloque les publicités sur YouTube, y compris les publicités stat
    - Copiez-collez le contenu du script dans l'éditeur
    - Cliquez sur "Fichier" > "Enregistrer"
 
+### UserScript Safari sur macOS
+
+1. Installez l'application UserScripts :
+   - Allez sur [la page GitHub de UserScripts](https://github.com/quoid/userscripts)
+   - Téléchargez la dernière version de l'application (.dmg file)
+   - Ouvrez le fichier .dmg et glissez l'application UserScripts dans votre dossier Applications
+
+2. Configurez UserScripts :
+   - Ouvrez l'application UserScripts
+   - Suivez les instructions pour activer l'extension dans Safari
+   - Dans les préférences de Safari, assurez-vous que l'extension UserScripts est activée
+
+3. Installez le script :
+   - Ouvrez l'application UserScripts
+   - Cliquez sur le bouton "+" en bas à gauche
+   - Choisissez "New Remote Script"
+   - Collez l'URL du script brut (si disponible) ou choisissez "New Local Script" et copiez-collez le contenu du script
+   - Donnez un nom au script (par exemple "YouTube Ad Blocker Enhanced")
+   - Cliquez sur "Save"
+            
 ## Utilisation
 
 Une fois installé, le script s'exécutera automatiquement lorsque vous visitez YouTube. Vous devriez constater une réduction significative des publicités sur la plateforme.
